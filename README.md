@@ -72,18 +72,20 @@ Monero has assigned  the first business task to analyse.
     * Created two new columns to calculate ride_length and total_minutes.
         ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/dbe19b4c-cb6c-462d-8b20-b760d4496bbf)
     * After combining the data, multiple instances of "NULL" strings appear, These rows of data are considered incomplete and thus need to be removed. This is 
-      achieved using the WHERE clause, NOT LIKE operator, and appropriate conditions.
+      achieved using the WHERE clause, NOT LIKE operator, and appropriate conditions.4
       
       ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/5ae73def-f41a-4c91-932b-07c79fc7b197)
 
 * Leveraging the advantages of Power BI's built-in functions and DAX measures to create various additional columns for improved visualization.
-  By following these steps, the data is effectively cleaned, transformed, and prepared for visualization purposes using Postgre SQL, while Power BI is utilized to 
+  By following these steps, the data is effectively cleaned, transformed, and prepared for visualization purposes using Postgre SQL, while Power BI is utilizedto 
   create additional columns that enhance the visualization experience.
 ### 4.Analyze & Share.
 * To initiate the analysis, we have the total number of rides and their distribution between casual and member riders. It is evident that there is a significant majority of member riders compared to casual riders.
+
     ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/c21e523c-cb51-4b71-a654-1424295972a8)
   
     ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/33458ed1-d7cf-44fe-9222-066883cb4561)
+  
 * The line chart below illustrates the distribution of total rides throughout the days of the week. For member riders, the line shows a consistent and balanced 
   pattern with steady usage from Monday to Friday, followed by a sharp decline during the weekends. Conversely, casual riders exhibit significantly lower usage 
   during weekdays, but experience a sudden spike in ride frequency over the weekends.
@@ -95,7 +97,7 @@ Monero has assigned  the first business task to analyse.
     * Electric Bike.
     * Docker Bike.
 * As observed, the most commonly used bike throughout the week is the classic bike, which was used by the majority of riders. The usage of electric bikes remained constant throughout the week, while docked bikes were the least utilized.
-![image](https://github.com/ananthpy/Cyclistic/assets/61512024/8c8d2204-c541-41dd-9e0d-4cd04bd116b3)
+	![image](https://github.com/ananthpy/Cyclistic/assets/61512024/8c8d2204-c541-41dd-9e0d-4cd04bd116b3)
 
 * From here, we conducted further analysis on the ride patterns of members and casual riders based on months. The graph below illustrates that the busiest months were June 2022 to September 2022. On the other hand, the period from December 2022 to March 2023 was the least busy, with less than 10% of the riders during that time.
     ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/0587b191-2d84-4b4a-8d64-2d857bfc91f7)
