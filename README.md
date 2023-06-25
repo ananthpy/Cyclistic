@@ -1,12 +1,12 @@
 # Google Data Analytics Professional Certificate Capstone Project.
 ## Table of Contents.
 1. [Introduction](README.md#introduction)
-2. Background
-3. Ask
-4. Prepare
-5. Process
-6. Analyze & Share
-7. Act
+2. [Background](README.md#background)
+3. [Ask](README.md#1ask)
+4. [Prepare](README.md#2prepare)
+5. [Process](README.md#3process)
+6. [Analyze & Share](README.md#4analyze--share)
+7. [Act](README.md#5act)
 
 ## Introduction
 The project is a part of Google Data Analytics Certification course capstone. The scenario involves analysis of the trip data of Cyclistic bike share company.
