@@ -74,7 +74,8 @@ Monero has assigned  the first business task to analyse.
     * After combining the data, multiple instances of "NULL" strings appear, These rows of data are considered incomplete and thus need to be removed. This is 
       achieved using the WHERE clause, NOT LIKE operator, and appropriate conditions.
       
-             ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/fea806a4-6e3c-4bbf-ba4a-5082c98f54eb)
+      ![image](https://github.com/ananthpy/Cyclistic/assets/61512024/5ae73def-f41a-4c91-932b-07c79fc7b197)
+
 * Leveraging the advantages of Power BI's built-in functions and DAX measures to create various additional columns for improved visualization.
   By following these steps, the data is effectively cleaned, transformed, and prepared for visualization purposes using Postgre SQL, while Power BI is utilized to 
   create additional columns that enhance the visualization experience.
